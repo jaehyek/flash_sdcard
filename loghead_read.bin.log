@@ -1,0 +1,1677 @@
+B -    884042 - DDR manufacture ID is 0x6
+B -    888038 - DDR rank 0 size is 0x400
+B -    891667 - DDR rank 1 size is 0x400
+B -    895571 - Basic DDR tests done
+B -    953247 - no battery check start
+B -    953277 - no battery check End
+B -    955534 - boot_pre_longkey_check
+B -    959011 - device will be power off
+B -    970174 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    974719 - clock_init, Start
+B -    979324 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    989725 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    997045 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -   1099250 - Image Load, Start
+B -   1104740 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -   1110566 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -   1119136 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -   1145305 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:0
+[15470] loghead.loghead_magicnumber:0B -    884042 - DDR manufacture ID is 0x6
+B -    888038 - DDR rank 0 size is 0x400
+B -    891667 - DDR rank 1 size is 0x400
+B -    895571 - Basic DDR tests done
+B -    953247 - no battery check start
+B -    953277 - no battery check End
+B -    955534 - boot_pre_longkey_check
+B -    95ntering main console loop
+Temp : 30] Temp : 31] Temp : 31] Temp : 31] Temp : 31] Temp : 31] Temp : 32] Temp : 31] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 33] Temp : 33] Temp : 32] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] noise 1000B -    717726 - DDR manufacture ID is 0x6
+B -    721721 - DDR rank 0 size is 0x400
+B -    725381 - DDR rank 1 size is 0x400
+B -    729285 - Basic DDR tests done
+B -    786930 - no battery check start
+B -    786961 - no battery check End
+B -    789218 - boot_pre_longkey_check
+B -    792695 - device will be power off
+B -    803858 - Image Load, Start
+D -      4544 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    808402 - clock_init, Start
+B -    813008 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    823378 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -    830728 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    932964 - Image Load, Start
+B -    938424 - QFPROM flag != QFPROMblown
+D -      3111 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    944249 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    952820 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    979019 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[180] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:9
+[15470] loghead.loghead_magicnumber:0B -    717726 - DDR manufacture ID is 0x6
+B -    721721 - DDR rank 0 size is 0x400
+B -    725381 - DDR rank 1 size is 0x400
+B -    729285 - Basic DDR tests done
+B -    786930 - no battery check start
+B -    786961 - no battery check End
+B -    789218 - boot_pre_longkey_check
+B -    79ntering main console loop
+Temp : 30] Temp : 33] Temp : 33] noise 1cmd_noise 
+nanotime is 1Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 32] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] Temp : 33] noise 1 1 [1D [1D[1D [1Dcmd_noise 
+nanotime is 1Temp : 33] Temp : 33] Temp : 34] Temp : 34] Temp : 34] Temp : 34] Temp : 34] Temp : 34] Temp : 34] noise  1cmd_noise 
+nanotime is 1Temp : 34] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] noise 1cmd_noise 
+nanotime is 1Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] noise 111cmd_noise 
+nanotime is 111Temp : 35] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 37] noise 1000cmd_noise 
+nanotime is 1000Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 35] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] noise 10000cmd_noise 
+nanotime is 10000Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 36] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 38] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] Temp : 37] 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Beginning the perform_cross_temperature_test() 
+cmd_write 
+[33m
+Write Known Pattern 1cycle test area 0 ~ 61825024
+[m[280750] UFS error: UE.
+[280750] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[280750] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[280800] UFS error: UE.
+[280800] UIC non-fatal error. IS: 0x4 UECPA: 0x80000010 UECDL: 0x0
+[280800] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[280860] UFS error: UE.
+[280860] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80002000
+[280860] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[280920] UFS error: UE.
+[280920] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[280920] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[280970] UFS error: UE.
+[280970] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[280970] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281030] UFS error: UE.
+[281030] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281030] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281090] UFS error: UE.
+[281090] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281090] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281140] UFS error: UE.
+[281140] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281140] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281200] UFS error: UE.
+[281200] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281200] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281260] UFS error: UE.
+[281260] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281260] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281320] UFS error: UE.
+[281320] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281320] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281370] UFS error: UE.
+[281370] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281370] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281430] UFS error: UE.
+[281430] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281430] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281490] UFS error: UE.
+[281490] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281490] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281540] UFS error: UE.
+[281540] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281540] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281600] UFS error: UE.
+[281600] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281600] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281660] UFS error: UE.
+[281660] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281660] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281710] UFS error: UE.
+[281710] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281710] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281770] UFS error: UE.
+[281770] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281770] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281830] UFS error: UE.
+[281830] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281830] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281880] UFS error: UE.
+[281880] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281880] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[281940] UFS error: UE.
+[281940] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[281940] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282000] UFS error: UE.
+[282000] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282000] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282060] UFS error: UE.
+[282060] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282060] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282110] UFS error: UE.
+[282110] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282110] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282170] UFS error: UE.
+[282170] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282170] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282230] UFS error: UE.
+[282230] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282230] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282280] UFS error: UE.
+[282280] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282280] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282340] UFS error: UE.
+[282340] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282340] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282400] UFS error: UE.
+[282400] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282400] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282450] UFS error: UE.
+[282450] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282450] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282510] UFS error: UE.
+[282510] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282510] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282570] UFS error: UE.
+[282570] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282570] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282620] UFS error: UE.
+[282620] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282620] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282680] UFS error: UE.
+[282680] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282680] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282740] UFS error: UE.
+[282740] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282740] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282800] UFS error: UE.
+[282800] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282800] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282850] UFS error: UE.
+[282850] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282850] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282910] UFS error: UE.
+[282910] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282910] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[282970] UFS error: UE.
+[282970] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[282970] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283020] UFS error: UE.
+[283020] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283020] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283080] UFS error: UE.
+[283080] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283080] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283140] UFS error: UE.
+[283140] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283140] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283190] UFS error: UE.
+[283190] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283190] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283250] UFS error: UE.
+[283250] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283250] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283310] UFS error: UE.
+[283310] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283310] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283360] UFS error: UE.
+[283360] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283360] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283420] UFS error: UE.
+[283420] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283420] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283480] UFS error: UE.
+[283480] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283480] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283540] UFS error: UE.
+[283540] UIC non-[283360] UFS error: UE.
+[283360] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283360] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283420] UFS error: UE.
+[283420] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283420] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283480] UFS error: UE.
+[283480] UIC non-fatal error. IS: 0x4 UECPA: 0x0 UECDL: 0x80000002
+[283480] UIC non-fatal error handled. Pending interrupt mask: 0x0
+[283540] UFS error: UE.
+[283540] UIC non-[283540] panic (frame 0x9166e604): 
+[283540] r0  0xbfcec83d r1  0x9166e654 r2  0xbfcec83d r3  0x9166e64f
+[283540] r4  0x916223a0 r5  0x9166e64f r6  0x9166e67b r7  0x34393234
+[283540] r8  0x32373639 r9  0x91003639 r10 0x916596f4 r11 0x91659804
+[283540] r12 0x91659800 usp 0x9165067c ulr 0x32373639 pc  0x91659804
+[283540] spsr 0x9163cb10
+[283540]  fiq r13 0x91654400 r14 0x00000000
+[283540]  irq r13 0x91658a90 r14 0x9163f734
+[283540]  svc r13 0x9166e57c r14 0x9161cb64
+[283540]  und r13 0x91654400 r14 0x00000000B -    710802 - DDR manufacture ID is 0x6
+B -    714798 - DDR rank 0 size is 0x400
+B -    718458 - DDR rank 1 size is 0x400
+B -    722362 - Basic DDR tests done
+B -    780007 - no battery check start
+B -    780037 - no battery check End
+B -    782294 - boot_pre_longkey_check
+B -    785771 - device will be power off
+B -    796934 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    801509 - clock_init, Start
+B -    806084 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    816485 - Image Load, Start
+D -      4453 - APDP Image Loaded, Delta - (0 Bytes)
+B -    823805 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    926041 - Image Load, Start
+B -    931500 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    937326 - sbl1_efs_handle_cookies, Start
+D -        30 - sbl1_efs_handle_cookies, Delta
+B -    945896 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    972096 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:40
+[15470] loghead.loghead_magicnumber:B -    710802 - DDR manufacture ID is 0x6
+B -    714798 - DDR rank 0 size is 0x400
+B -    718458 - DDR rank 1 size is 0x400
+B -    722362 - Basic DDR tests done
+B -    780007 - no battery check start
+B -    780037 - no battery check End
+B -    782294 - boot_pre_longkey_check
+B -    785ntering main console loop
+Temp : 30]  
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Beginning the perform_cross_temperature_test() 
+cmd_write 
+[33m
+Write Known Pattern 1cycle test area 0 ~ 61825024
+[m[33m 16383 / 61825023[m[33m 344063 / 61825023[m[33m 671743 / 61825023[m[33m 999423 / 61825023[m[33m 1327103 / 61825023[m[33m 1654783 / 61825023[m[33m 1982463 / 61825023[m[33m 2310143 / 61825023[m[33m 2637823 / 61825023[m[33m 2965503 / 61825023[m[33m 3293183 / 61825023[m[33m 3620863 / 61825023[m[33m 3948543 / 61825023[m[33m 4276223 / 61825023[m[33m 4603903 / 61825023[m[33m 4931583 / 61825023[m[33m 5259263 / 61825023[m[33m 5586943 / 61825023[m[33m 5914623 / 61825023[m[33m 6242303 / 61825023[m[33m 6569983 / 61825023[m[33m 6897663 / 61825023[m[33m 7225343 / 61825023[m[33m 7553023 / 61825023[m[33m 7880703 / 61825023[m[33m 8208383 / 61825023[m[33m 8536063 / 61825023[m[33m 8863743 / 61825023[m[33m 9191423 / 61825023[m[33m 9519103 / 61825023[m[33m 9846783 / 61825023[m[33m 10174463 / 61825023[m[33m 10502143 / 61825023[m[33m 10829823 / 61825023[m[33m 11157503 / 61825023[m[33m 11485183 / 61825023[m[33m 11812863 / 6182502B -   1083787 - DDR manufacture ID is 0x6
+B -   1087782 - DDR rank 0 size is 0x400
+B -   1091412 - DDR rank 1 size is 0x400
+B -   1095316 - Basic DDR tests done
+B -   1152991 - no battery check start
+B -   1153022 - no battery check End
+B -   1155279 - boot_pre_longkey_check
+B -   1158756 - device will be power off
+B -   1169919 - Image Load, Start
+D -      4575 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -   1174463 - clock_init, Start
+B -   1179069 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -   1189469 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -   1196789 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -   1298995 - Image Load, Start
+B -   1304485 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -   1310310 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -   1318881 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -   1345050 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[180] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:50
+[15470] loghead.loghead_magicnumber:B -   1083787 - DDR manufacture ID is 0x6
+B -   1087782 - DDR rank 0 size is 0x400
+B -   1091412 - DDR rank 1 size is 0x400
+B -   1095316 - Basic DDR tests done
+B -   1152991 - no battery check start
+B -   1153022 - no battery check End
+B -   1155279 - boot_pre_longkey_check
+B -   1158ntering main console loop
+Temp : 31] 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+Beginning the perform_cross_temperature_test() 
+cmd_write 
+[33m
+Write Known Pattern 1cycle test area 0 ~ 61825024
+[m[33m 16383 / 61825023[m[33m 344063 / 61825023[m[33m 671743 / 61825023[m[33m 999423 / 61825023[m[33m 1327103 / 61825023[m[33m 1654783 / 61825023[m[33m 1982463 / 61825023[m[33m 2310143 / 61825023[m[33m 2637823 / 61825023[m[33m 2965503 / 61825023[m[33m 3293183 / 61825023[m[33m 3620863 / 61825023[m[33m 3948543 / 61825023[m[33m 4276223 / 61825023[m[33m 4603903 / 61825023[m[33m 4931583 / 61825023[m[33m 5259263 / 61825023[m[33m 5586943 / 61825023[m[33m 5914623 / 618250B -    952271 - DDR manufacture ID is 0x6
+B -    956266 - DDR rank 0 size is 0x400
+B -    959896 - DDR rank 1 size is 0x400
+B -    963830 - Basic DDR tests done
+B -   1021475 - no battery check start
+B -   1021506 - no battery check End
+B -   1023763 - boot_pre_longkey_check
+B -   1027240 - device will be power off
+B -   1038403 - Image Load, Start
+D -      4544 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -   1042947 - clock_init, Start
+B -   1047553 - Image Load, Start
+D -      9790 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -   1057923 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -   1065273 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -   1167509 - Image Load, Start
+B -   1172969 - QFPROM flag != QFPROMblown
+D -      3111 - SEC Image Loaded, Delta - (4116 Bytes)
+B -   1178794 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -   1187365 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -   1213564 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/3 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:59
+[15470] loghead.loghead_magicnumber:B -    952271 - DDR manufacture ID is 0x6
+B -    956266 - DDR rank 0 size is 0x400
+B -    959896 - DDR rank 1 size is 0x400
+B -    963830 - Basic DDR tests done
+B -   1021475 - no battery check start
+B -   1021506 - no battery check End
+B -   1023763 - boot_pre_longkey_check
+B -   1027ntering main console loop
+Temp : 35] Temp : 35] Temp : 35] Temp : 35] Temp : 35] noise 1cmd_noise 
+nanotime is 1[24090] UFS error: UE.
+[24090] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[24090B -    805444 - DDR manufacture ID is 0x6
+B -    809439 - DDR rank 0 size is 0x400
+B -    813069 - DDR rank 1 size is 0x400
+B -    816973 - Basic DDR tests done
+B -    874648 - no battery check start
+B -    874679 - no battery check End
+B -    876936 - boot_pre_longkey_check
+B -    880413 - device will be power off
+B -    891576 - Image Load, Start
+D -      4544 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    896120 - clock_init, Start
+B -    900726 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    911126 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -    918446 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -   1020652 - Image Load, Start
+B -   1026142 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -   1031967 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -   1040538 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -   1066707 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:67
+[15470] loghead.loghead_magicnumber:B -    805444 - DDR manufacture ID is 0x6
+B -    809439 - DDR rank 0 size is 0x400
+B -    813069 - DDR rank 1 size is 0x400
+B -    816973 - Basic DDR tests done
+B -    874648 - no battery check start
+B -    874679 - no battery check End
+B -    876936 - boot_pre_longkey_check
+B -    880ntering main console loop
+Temp : 35] Temp : 36] Temp : 36] Temp : 36] Temp : 36] noise 10cmd_noise 
+nanotime is 10[24020] UFS error: UE.
+[24020] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[240B -    661057 - DDR manufacture ID is 0x6
+B -    665022 - DDR rank 0 size is 0x400
+B -    668682 - DDR rank 1 size is 0x400
+B -    672586 - Basic DDR tests done
+B -    730231 - no battery check start
+B -    730261 - no battery check End
+B -    732518 - boot_pre_longkey_check
+B -    735995 - device will be power off
+B -    747158 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    751703 - clock_init, Start
+B -    756308 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    766678 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    774029 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    876234 - Image Load, Start
+B -    881724 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    887550 - sbl1_efs_handle_cookies, Start
+D -        30 - sbl1_efs_handle_cookies, Delta
+B -    896120 - Image Load, Start
+D -     26139 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    922259 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:75
+[15470] loghead.loghead_magicnumber:B -    658769 - DDR manufacture ID is 0x6
+B -    662765 - DDR rank 0 size is 0x400
+B -    666394 - DDR rank 1 size is 0x400
+B -    670329 - Basic DDR tests done
+B -    727974 - no battery check start
+B -    728004 - no battery check End
+B -    730261 - boot_pre_longkey_check
+B -    733738 - device will be power off
+B -    744993 - Image Load, Start
+D -      4575 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    749568 - clock_init, Start
+B -    754143 - Image Load, Start
+D -      9851 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    764543 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    771894 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    874099 - Image Load, Start
+B -    879589 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    885415 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    893985 - Image Load, Start
+D -     26139 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    920124 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:82
+[15470] loghead.loghead_magicnumber:B -    658769 - DDR manufacture ID is 0x6
+B -    662765 - DDR rank 0 size is 0x400
+B -    666394 - DDR rank 1 size is 0x400
+B -    670329 - Basic DDR tests done
+B -    727974 - no battery check start
+B -    728004 - no battery check End
+B -    730261 - boot_pre_longkey_check
+B -    733ntering main console loop
+Temp : 36] noise 1cmd_noise 
+nanotime is 1[19700] UFS error: UE.
+[19700] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[19700] UIC non-fatal error handled. Pending interruptB -    655963 - DDR manufacture ID is 0x6
+B -    659959 - DDR rank 0 size is 0x400
+B -    663588 - DDR rank 1 size is 0x400
+B -    667492 - Basic DDR tests done
+B -    725168 - no battery check start
+B -    725198 - no battery check End
+B -    727455 - boot_pre_longkey_check
+B -    730932 - device will be power off
+B -    742095 - Image Load, Start
+D -      4575 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    746640 - clock_init, Start
+B -    751245 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    761615 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    768966 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    871171 - Image Load, Start
+B -    876661 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    882487 - sbl1_efs_handle_cookies, Start
+D -        30 - sbl1_efs_handle_cookies, Delta
+B -    891057 - Image Load, Start
+D -     26139 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    917226 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/3 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:90
+[15470] loghead.loghead_magicnumber:B -    655963 - DDR manufacture ID is 0x6
+B -    659959 - DDR rank 0 size is 0x400
+B -    663588 - DDR rank 1 size is 0x400
+B -    667492 - Basic DDR tests done
+B -    725168 - no battery check start
+B -    725198 - no battery check End
+B -    727455 - boot_pre_longkey_check
+B -    730ntering main console loop
+Temp : 37] noise 2cmd_noise 
+nanotime is 2[20570] UFS error: UE.
+[20570] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[20570] UIC non-fatal error handled. Pending interruptB -    655506 - DDR manufacture ID is 0x6
+B -    659501 - DDR rank 0 size is 0x400
+B -    663131 - DDR rank 1 size is 0x400
+B -    667035 - Basic DDR tests done
+B -    724710 - no battery check start
+B -    724741 - no battery check End
+B -    726998 - boot_pre_longkey_check
+B -    730475 - device will be power off
+B -    741668 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    746213 - clock_init, Start
+B -    750818 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    761188 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    768539 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    870744 - Image Load, Start
+B -    876234 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    882060 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    890630 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    916830 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[180] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:98
+[15470] loghead.loghead_magicnumber:B -    655506 - DDR manufacture ID is 0x6
+B -    659501 - DDR rank 0 size is 0x400
+B -    663131 - DDR rank 1 size is 0x400
+B -    667035 - Basic DDR tests done
+B -    724710 - no battery check start
+B -    724741 - no battery check End
+B -    726998 - boot_pre_longkey_check
+B -    730ntering main console loop
+Temp : 36] noise 100cmd_noise 
+nanotime is 100[21430] UFS error: UE.
+[21430] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[21430] UIC non-fatal error handled. Pending interB -    658830 - DDR manufacture ID is 0x6
+B -    662826 - DDR rank 0 size is 0x400
+B -    666455 - DDR rank 1 size is 0x400
+B -    670359 - Basic DDR tests done
+B -    728035 - no battery check start
+B -    728065 - no battery check End
+B -    730322 - boot_pre_longkey_check
+B -    733799 - device will be power off
+B -    744962 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    749537 - clock_init, Start
+B -    754112 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    764513 - Image Load, Start
+D -      4453 - APDP Image Loaded, Delta - (0 Bytes)
+B -    771833 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    874069 - Image Load, Start
+B -    879528 - QFPROM flag != QFPROMblown
+D -      3111 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    885354 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    893924 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    920124 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:106
+[15470] loghead.loghead_magicnumberB -    658830 - DDR manufacture ID is 0x6
+B -    662826 - DDR rank 0 size is 0x400
+B -    666455 - DDR rank 1 size is 0x400
+B -    670359 - Basic DDR tests done
+B -    728035 - no battery check start
+B -    728065 - no battery check End
+B -    730322 - boot_pre_longkey_check
+B -    7337ntering main console loop
+Temp : 37] Temp : 37] noise 50cmd_noise 
+nanotime is 50[22430] UFS error: UE.
+[22430] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[22430] UIC non-fatal error handled. PeB -    655536 - DDR manufacture ID is 0x6
+B -    659532 - DDR rank 0 size is 0x400
+B -    663161 - DDR rank 1 size is 0x400
+B -    667096 - Basic DDR tests done
+B -    724741 - no battery check start
+B -    724771 - no battery check End
+B -    727028 - boot_pre_longkey_check
+B -    730505 - device will be power off
+B -    741668 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    746213 - clock_init, Start
+B -    750818 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    761188 - Image Load, Start
+D -      4484 - APDP Image Loaded, Delta - (0 Bytes)
+B -    768539 - Image Load, Start
+D -    102205 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    870744 - Image Load, Start
+B -    876234 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    882060 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    890630 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    916799 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/1 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:114
+[15470] loghead.loghead_magicnumberB -    655536 - DDR manufacture ID is 0x6
+B -    659532 - DDR rank 0 size is 0x400
+B -    663161 - DDR rank 1 size is 0x400
+B -    667096 - Basic DDR tests done
+B -    724741 - no battery check start
+B -    724771 - no battery check End
+B -    727028 - boot_pre_longkey_check
+B -    7305ntering main console loop
+Temp : 37] noise 20cmd_noise 
+nanotime is 20[20530] UFS error: UE.
+[20530] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[20530] UIC non-fatal error handled. Pending interrB -    655872 - DDR manufacture ID is 0x6
+B -    659837 - DDR rank 0 size is 0x400
+B -    663497 - DDR rank 1 size is 0x400
+B -    667401 - Basic DDR tests done
+B -    725076 - no battery check start
+B -    725107 - no battery check End
+B -    727364 - boot_pre_longkey_check
+B -    730841 - device will be power off
+B -    742095 - Image Load, Start
+D -      4575 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    746670 - clock_init, Start
+B -    751245 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    761646 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -    768996 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    871202 - Image Load, Start
+B -    876692 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    882517 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    891088 - Image Load, Start
+D -     26138 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    917226 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[180] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/3 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:122
+[15470] loghead.loghead_magicnumberB -    655567 - DDR manufacture ID is 0x6
+B -    659562 - DDR rank 0 size is 0x400
+B -    663192 - DDR rank 1 size is 0x400
+B -    667096 - Basic DDR tests done
+B -    724771 - no battery check start
+B -    724802 - no battery check End
+B -    727059 - boot_pre_longkey_check
+B -    730536 - device will be power off
+B -    741699 - Image Load, Start
+D -      4575 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    746243 - clock_init, Start
+B -    750849 - Image Load, Start
+D -      9790 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    761219 - Image Load, Start
+D -      4483 - APDP Image Loaded, Delta - (0 Bytes)
+B -    768569 - Image Load, Start
+D -    102206 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    870775 - Image Load, Start
+B -    876265 - QFPROM flag != QFPROMblown
+D -      3141 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    882090 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    890661 - Image Load, Start
+D -     26169 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    916830 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/3 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:129
+[15470] loghead.loghead_magicnumberB -    655567 - DDR manufacture ID is 0x6
+B -    659562 - DDR rank 0 size is 0x400
+B -    663192 - DDR rank 1 size is 0x400
+B -    667096 - Basic DDR tests done
+B -    724771 - no battery check start
+B -    724802 - no battery check End
+B -    727059 - boot_pre_longkey_check
+B -    7305ntering main console loop
+Temp : 37] noise 4cmd_noise 
+nanotime is 4[22290] UFS error: UE.
+[22290] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[22290] UIC non-fatal error handled. Pending interrupB -    663070 - DDR manufacture ID is 0x6
+B -    667065 - DDR rank 0 size is 0x400
+B -    670695 - DDR rank 1 size is 0x400
+B -    674629 - Basic DDR tests done
+B -    732274 - no battery check start
+B -    732305 - no battery check End
+B -    734562 - boot_pre_longkey_check
+B -    738039 - device will be power off
+B -    749354 - Image Load, Start
+D -      4545 - LGE SBL Image Loaded, Delta - (23293 Bytes)
+B -    753929 - clock_init, Start
+B -    758504 - Image Load, Start
+D -      9821 - QSEE Dev Config Image Loaded, Delta - (33652 Bytes)
+B -    768905 - Image Load, Start
+D -      4453 - APDP Image Loaded, Delta - (0 Bytes)
+B -    776225 - Image Load, Start
+D -    102236 - QSEE Image Loaded, Delta - (1349800 Bytes)
+B -    878461 - Image Load, Start
+B -    883920 - QFPROM flag != QFPROMblown
+D -      3111 - SEC Image Loaded, Delta - (4116 Bytes)
+B -    889746 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    898316 - Image Load, Start
+D -     26200 - QHEE Image Loaded, Delta - (254640 Bytes)
+B -    924516 - Image Load, Start
+[0] logbuf_relocate_sbl_log: log_start=0x85e11040, log_size=0x450, end_time=0
+[0] welcome to lk
+
+[10] platform_init()
+[10] initializing target
+[10] target_init()_alpha
+[10] RPM GLink Init
+[10] Opening RPM Glink Port success
+[10] Opening SSR Glink Port success
+[20] Glink Connection between APPS and RPM established
+[20] Glink Connection between APPS and RPM established
+[30] bootmode_set_board_revision: board revision value is 9 from smem
+[30] HW Rev(9), vol_up gpio(2)
+[40] boot device 5
+[40] boot device 5
+[50] turn_on_mmc 
+[90] Error: Command timeout error
+[90] Failure getting OCR response from MMC Card
+[90] MMC card failed to respond, try for SD card
+[100] Error: Command timeout error
+[100] The response for CMD8 does not match the supplied value
+[100] Failed to initialize SD card
+[110] Failed detecting MMC/SDC @ slot1
+[110] eMMC init failed!
+[120] Error: Command timeout error
+[120] Failure getting OCR response from MMC Card
+[120] MMC card failed to respond, try for SD card
+[180] Done initialization of the card
+[190] sdcard init Done!
+[190] ------Host controller register dump ---------
+[190] UFS_UECPA 0x0
+[190] UFS_UECDL 0x0
+[200] UFS_UECN 0x0
+[200] UFS_UECT 0x0
+[200] UFS_UECDME 0x0
+[200] UFS_HCS 0x10f
+[200] UFS_IS 0x0
+[200] UFS_UTRLDBR 0x0
+[210] UFS_UICCMD 0x2
+[210] -----------End--------------------------------
+[210] UFS init success
+[260] SW3800_Authentication [vendor code: 0]
+[330] ftm_check_validation: FTM magic string is not equal. 
+[330] ftm_check_validation: FTM magic string is not equal. 
+[340] ftm_get_item: invalid id(129)
+[340] set_dload_mode: download_mode:1
+[340] ftm_check_validation: FTM magic string is not equal. 
+[350] ftm_get_item: invalid id(104)
+[350] [KSwitch] (kswitch_load_flag): has no ftm kill switch item
+[360] batt_info = 0
+[360] bootmode_set_cable: usb cable type/port type is 6/3 from smem
+[370] Qseecom Init Done in Appsbl
+[370] secure app region addr=0x86600000 size=0x1a00000[380] TZ App region notif returned with status:0 addr:86600000 size:27262976
+[380] TZ App log region register returned with status:0 addr:9166c000 size:4096
+[390] Qseecom TZ Init Done in Appsbl
+[430] Loading cmnlib done
+[430] qseecom_start_app: Loading app keymaster for the first time'
+[470] <3>keymaster: "\"KEYMASTER Init \""
+[470] calling apps_init()
+starting app shell
+console_init: entry
+starting app shell
+console_start: entry
+[15470] loghead.logdata_sectorno:4194306
+[15470] loghead.logdata_sectorlen:137
+[15470] loghead.loghead_magicnumberB -    663070 - DDR manufacture ID is 0x6
+B -    667065 - DDR rank 0 size is 0x400
+B -    670695 - DDR rank 1 size is 0x400
+B -    674629 - Basic DDR tests done
+B -    732274 - no battery check start
+B -    732305 - no battery check End
+B -    734562 - boot_pre_longkey_check
+B -    7380ntering main console loop
+Temp : 37] noise 15cmd_noise 
+nanotime is 15[19950] UFS error: UE.
+[19950] UIC non-fatal error. IS: 0x4 UECPA: 0x80000001 UECDL: 0x80004000
+[19950] UIC non-fatal error handled. Pending interr

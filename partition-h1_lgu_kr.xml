@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<configuration>
+    <parser_instructions>
+         <!-- NOTE: entries here are used by the parser when generating output -->
+         <!-- NOTE: each filename must be on it's own line as in variable=value-->
+         WRITE_PROTECT_BOUNDARY_IN_KB    = 65536
+         GROW_LAST_PARTITION_TO_FILL_DISK= false
+         ALIGN_PARTITIONS_TO_PERFORMANCE_BOUNDARY = true
+         PERFORMANCE_BOUNDARY_IN_KB = 4
+    </parser_instructions>
+
+    <!-- NOTE: "physical_partition" are listed in order and apply to devices such as eMMC cards that have (for example) 3 physical partitions -->
+    <!-- This is physical partition 0 -->
+    <physical_partition>
+        <!-- NOTE: Define information for each partition, which will be created in order listed here -->
+        <!-- NOTE: Place all "readonly=true" partitions side by side for optimum space usage -->
+        <!-- NOTE: If OPTIMIZE_READONLY_PARTITIONS=true, then partitions won't be in the order listed here -->
+        <!--       they will instead be placed side by side at the beginning of the disk -->
+        <partition label="pmic" size_in_kb="512" type="C00EEF24-7709-43D6-9799-DD2B411E7A3C" bootable="false" readonly="false" filename="pmic.elf"/>
+        <partition label="xbl" size_in_kb="2048" type="DEA0BA2C-CBDD-4805-B4F9-F428251C3E98" bootable="false" readonly="false" filename="xbl.elf"/>
+        <partition label="tz" size_in_kb="2048" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" bootable="false" readonly="false" filename="tz.mbn"/>
+        <partition label="hyp" size_in_kb="512" type="E1A6A689-0C8D-4CC6-B4E8-55A4320FBD8A" bootable="false" readonly="false" filename="hyp.mbn"/>
+        <partition label="rpm" size_in_kb="512" type="098DF793-D712-413D-9D4E-89D711772228" bootable="false" readonly="false" filename="rpm.mbn"/>
+        <partition label="aboot" size_in_kb="2048" type="400FFDCD-22E0-47E7-9A23-F16ED9382388" bootable="false" readonly="false" filename="emmc_appsboot.mbn"/>
+        <partition label="xblbak" size_in_kb="2048" type="DEA0BA2C-CBDD-4805-B4F9-F428251C3E98" bootable="false" readonly="false" filename="xbl.elf"/>
+        <partition label="pmicbak" size_in_kb="512" type="C00EEF24-7709-43D6-9799-DD2B411E7A3C" bootable="false" readonly="false" filename="pmic.elf"/>
+        <partition label="tzbak" size_in_kb="2048" type="A053AA7F-40B8-4B1C-BA08-2F68AC71A4F4" bootable="false" readonly="false" filename="tz.mbn"/>
+        <partition label="hypbak" size_in_kb="512" type="E1A6A689-0C8D-4CC6-B4E8-55A4320FBD8A" bootable="false" readonly="false" filename="hyp.mbn"/>
+        <partition label="rpmbak" size_in_kb="512" type="098DF793-D712-413D-9D4E-89D711772228" bootable="false" readonly="false" filename="rpm.mbn"/>
+        <partition label="abootbak" size_in_kb="2048" type="400FFDCD-22E0-47E7-9A23-F16ED9382388" bootable="false" readonly="false" filename="emmc_appsboot.mbn"/>
+        <partition label="limits" size_in_kb="512" type="10A0C19C-516A-5444-5CE3-664C3226A794" bootable="false" readonly="false" filename=""/>
+        <partition label="devinfo" size_in_kb="512" type="65ADDCF4-0C5C-4D9A-AC2D-D90B5CBFCD03" bootable="false" readonly="false" filename=""/>
+        <partition label="devcfg" size_in_kb="128" type="F65D4B16-343D-4E25-AAFC-BE99B6556A6D" bootable="false" readonly="false" filename="devcfg.mbn"/>
+        <partition label="apdp" size_in_kb="512" type="E6E98DA2-E22A-4D12-AB33-169E7DEAA507" bootable="false" readonly="false" filename=""/>
+        <partition label="msadp" size_in_kb="512" type="ED9E8101-05FA-46B7-82AA-8D58770D200B" bootable="false" readonly="false" filename=""/>
+        <partition label="dpo" size_in_kb="512" type="11406F35-1173-4869-807B-27DF71802812" bootable="false" readonly="false" filename=""/>
+        <partition label="spare1" size_in_kb="1536" type="DF24E5ED-8C96-4B86-B00B-79667DC6DE11" bootable="false" readonly="false" filename="" />
+        <partition label="misc" size_in_kb="16384" type="82ACC91F-357C-4A68-9C8F-689E1B1A23A1" bootable="false" readonly="true" filename="" />
+        <partition label="modemst1" size_in_kb="1536" type="EBBEADAF-22C9-E33B-8F5D-0E81686A68CB" bootable="false" readonly="true" filename=""/>
+        <partition label="modemst2" size_in_kb="1536" type="0A288B1F-22C9-E33B-8F5D-0E81686A68CB" bootable="false" readonly="true" filename=""/>
+        <partition label="fsg" size_in_kb="1536" type="638FF8E2-22C9-E33B-8F5D-0E81686A68CB" bootable="false" readonly="true" filename=""/>
+        <partition label="fsc" size_in_kb="512" type="57B90A16-22C9-E33B-8F5D-0E81686A68CB" bootable="false" readonly="true" filename=""/>
+        <partition label="ssd" size_in_kb="512" type="2C86E742-745E-4FDD-BFD8-B6A7AC638772" bootable="false" readonly="true" filename=""/>
+        <partition label="keystore" size_in_kb="512" type="DE7D4029-0F5B-41C8-AE7E-F6C023A02B33" bootable="false" readonly="true" filename="" />
+        <partition label="DDR" size_in_kb="2048" type="20A0C19C-286A-42FA-9CE7-F64C3226A794" bootable="false" readonly="true"/>
+        <partition label="sec" size_in_kb="512" type="303E6AC3-AF15-4C54-9E9B-D9A8FBECF401" bootable="false" readonly="true" filename="" />
+        <partition label="encrypt" size_in_kb="512" type="323EF595-AF7A-4AFA-8060-97BE72841BB9" bootable="false" readonly="true" filename=""/>
+        <partition label="eksst" size_in_kb="512" type="45864011-CF89-46E6-A445-85262E065604" bootable="false" readonly="true" filename=""/>
+        <partition label="rct" size_in_kb="512" type="8ed8ae95-597f-4c8a-a5bd-a7ff8e4dfaa9" bootable="false" readonly="true" filename=""/>
+        <partition label="persistent" size_in_kb="2048" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" readonly="true" filename=""/>
+        <partition label="spare2" size_in_kb="4096" type="7C29D3AD-78B9-452E-9DEB-D098D542F092" bootable="false" readonly="true" filename=""/>
+        <partition label="boot" size_in_kb="65536" type="20117F86-E985-4357-B9EE-374BC1D8487D" bootable="false" readonly="true" filename=""/>
+		<partition label="keymaster" size_in_kb="256" type="4F772165-0F3C-4BA3-BBCB-A829E9C969F9" bootable="false" readonly="true" filename="keymaster.mbn" />
+        <partition label="keymasterbak" size_in_kb="256" type="4F772165-0F3C-4BA3-BBCB-A829E9C969F9" bootable="false" readonly="true" filename="keymaster.mbn" />
+        <partition label="cmnlib" size_in_kb="256" type="73471795-AB54-43F9-A847-4F72EA5CBEF5" bootable="false" readonly="true" filename="cmnlib.mbn"/>
+        <partition label="cmnlibbak" size_in_kb="256" type="73471795-AB54-43F9-A847-4F72EA5CBEF5" bootable="false" readonly="true" filename="cmnlib.mbn"/>
+        <partition label="cmnlib64" size_in_kb="256" type="8EA64893-1267-4A1B-947C-7C362ACAAD2C" bootable="false" readonly="true" filename="cmnlib64.mbn"/>
+        <partition label="cmnlib64bak" size_in_kb="256" type="8EA64893-1267-4A1B-947C-7C362ACAAD2C" bootable="false" readonly="true" filename="cmnlib64.mbn"/>
+        <partition label="keystore" size_in_kb="512" type="DE7D4029-0F5B-41C8-AE7E-F6C023A02B33" bootable="false" readonly="false" filename="" />
+       
+        <partition label="drm" size_in_kb="8192" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" readonly="false" filename=""/>
+        <partition label="sns" size_in_kb="8192" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" readonly="false" filename=""/>
+        <partition label="mpt" size_in_kb="32768" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" readonly="false" filename=""/>
+        <partition label="eri" size_in_kb="8192" type="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7" bootable="false" readonly="false" filename=""/>
+    </physical_partition>
+</configuration>

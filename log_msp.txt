@@ -1,0 +1,140 @@
+11:21:07 
+msp2.py is running from CWD: /home/ysc/emmc_ufs/crosstemp_msm8996_ufs
+
+11:21:07 ------------------------------------------------------------------------------
+11:21:07 	Remember - DON'T FORGET SUDO
+11:21:07 	Remember - DON'T FORGET SUDO
+11:21:07 	Remember - DON'T FORGET SUDO
+11:21:07 ------------------------------------------------------------------------------
+
+11:21:07 --------------------------------Partitions Detected--------------------------------------
+11:21:07 /dev/sda   476.94 GB	sectors:1000215216 <--- Not likely an SD card, careful!
+11:21:07 /dev/sdb   3726.02 GB	sectors:7814037168 <--- Not likely an SD card, careful!
+11:21:07 /dev/sdc   14.84 GB	sectors:31116288
+11:21:07 ------------------------------------------------------------------------------
+
+11:21:07 
+Search Paths
+11:21:07 []
+11:21:07 
+Files
+11:21:07 []
+11:21:07 
+
+	Looking for 'log_write0.xml'
+11:21:07 	----------------------------------------
+11:21:07 	Searching '/home/ysc/emmc_ufs/crosstemp_msm8996_ufs'
+11:21:07 
+	**Found log_write0.xml (618 bytes)
+11:21:07 MinDiskSizeInSectors=4194306 sectors (2048.00MB)
+11:21:07 MinDiskSizeInSectors=4194316 sectors (2048.01MB)
+11:21:07 
+
+	Looking for 'testsparse.py'
+11:21:07 	----------------------------------------
+11:21:07 	Searching '/home/ysc/emmc_ufs/crosstemp_msm8996_ufs'
+11:21:07 	Cound't find file OR perhaps you don't have permission to run os.stat() on this file
+
+11:21:07 
+WARNING: Are you sure you want to write to '/dev/sdc' of size 14.84 GB (y|N) 
+11:21:07 	                                                     _            
+11:21:07 	                                                    (_)            
+11:21:07 	 _ __  _ __ ___   __ _ _ __ __ _ _ __ ___  _ __ ___  _ _ __   __ _ 
+11:21:07 	| '_ \| '__/ _ \ / _` | '__/ _` | '_ ` _ \| '_ ` _ \| | '_ \ / _` |
+11:21:07 	| |_) | | | (_) | (_| | | | (_| | | | | | | | | | | | | | | | (_| |
+11:21:07 	| .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|_|_| |_|\__, |
+11:21:07 	| |               __/ |                                       __/ |
+11:21:07 	|_|              |___/                                       |___/ 
+11:21:07 
+==============================================================================
+11:21:07 ==============================================================================
+11:21:07 
+
+	Looking for 'loghead.bin'
+11:21:07 	----------------------------------------
+11:21:07 	Searching '/home/ysc/emmc_ufs/crosstemp_msm8996_ufs'
+11:21:07 
+	**Found loghead.bin (1024 bytes)
+11:21:07 
+'loghead.bin' (1024 B) to partition 'loghead' at sector 4194304 (at 2.00 GB)
+
+11:21:07 	Attempting to move to sector 0 (file file_sector_offset) in loghead.bin
+11:21:07 	Attempting to read 1024 bytes
+11:21:07 	Successfully read 1024 bytes of 1024 bytes and closed loghead.bin
+11:21:07 opfile = open('/dev/sdc', 'r+b') , cwd=/home/ysc/emmc_ufs/crosstemp_msm8996_ufs
+11:21:07 
+	Opened /dev/sdc
+11:21:07 	Moved to sector 4194304 on /dev/sdc
+11:21:07 	File can be written completely.
+11:21:07 	Calling opfile.write(bytes_read)
+11:21:07 
+	Written with
+11:21:07 	python dd.py --if=loghead.bin --bs=512 --count=2 --seek=4194304 --of=/dev/sdc
+11:21:07 
+	Verify with
+11:21:07 	python dd.py --if=/dev/sdc --bs=512 --count=2 --skip=4194304 --of=dump.bin
+11:21:07 
+	Successfully wrote "loghead.bin" (1024 B payload) to /dev/sdc
+11:21:07 
+==============================================================================
+11:21:07 ==============================================================================
+11:21:07 
+
+	Looking for 'logdata.bin'
+11:21:07 	----------------------------------------
+11:21:07 	Searching '/home/ysc/emmc_ufs/crosstemp_msm8996_ufs'
+11:21:07 
+	**Found logdata.bin (5120 bytes)
+11:21:07 
+'logdata.bin' (5.00 KB) to partition 'logdata' at sector 4194306 (at 2.00 GB)
+
+11:21:07 	Attempting to move to sector 0 (file file_sector_offset) in logdata.bin
+11:21:07 	Attempting to read 5120 bytes
+11:21:07 	Successfully read 5120 bytes of 5120 bytes and closed logdata.bin
+11:21:07 opfile = open('/dev/sdc', 'r+b') , cwd=/home/ysc/emmc_ufs/crosstemp_msm8996_ufs
+11:21:07 
+	Opened /dev/sdc
+11:21:07 	Moved to sector 4194306 on /dev/sdc
+11:21:07 	File can be written completely.
+11:21:07 	Calling opfile.write(bytes_read)
+11:21:07 
+	Written with
+11:21:07 	python dd.py --if=logdata.bin --bs=512 --count=10 --seek=4194306 --of=/dev/sdc
+11:21:07 
+	Verify with
+11:21:07 	python dd.py --if=/dev/sdc --bs=512 --count=10 --skip=4194306 --of=dump.bin
+11:21:07 
+	Successfully wrote "logdata.bin" (5.00 KB payload) to /dev/sdc
+11:21:07 
+Done Writing Files
+
+11:21:07 
+------------------------------------------------------------------------------
+11:21:07 If you wrote any partition table information (MBR0.bin, gpt_main0.bin, etc)
+11:21:07  
+11:21:07          _             _ _      __                     _   
+11:21:07         | |           ( ) |    / _|                   | |  
+11:21:07       __| | ___  _ __ |/| |_  | |_ ___  _ __ __ _  ___| |_ 
+11:21:07      / _` |/ _ \| '_ \  | __| |  _/ _ \| '__/ _` |/ _ \ __|
+11:21:07     | (_| | (_) | | | | | |_  | || (_) | | | (_| |  __/ |_ 
+11:21:07      \__,_|\___/|_| |_|  \__| |_| \___/|_|  \__, |\___|\__|
+11:21:07                                              __/ |         
+11:21:07                                             |___/          
+11:21:07              _                       _        _     
+11:21:07             | |                     | |      | |    
+11:21:07             | |_  ___    _ __   __ _| |_  ___| |__  
+11:21:07             | __|/ _ \  | '_ \ / _` | __|/ __| '_ \ 
+11:21:07             | |_| (_) | | |_) | (_| | |_| (__| | | |
+11:21:07              \__|\___/  | .__/ \__,_|\__|\___|_| |_|
+11:21:07                         | |                         
+11:21:07                         |_|                         
+11:21:07 
+
+11:21:07 	Ex: sudo python msp2.py -p patch0.xml -d /dev/sdc 
+11:21:07 		Or, do it all in one step
+11:21:07 	Ex: sudo python msp2.py -r rawprogram0.xml -d /dev/sdc -p patch0.xml
+11:21:07 ------------------------------------------------------------------------------
+11:21:07 
+msp2.py exiting SUCCESSFULLY- Log is log_msp.txt
+
+
